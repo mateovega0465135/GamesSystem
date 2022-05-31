@@ -1,0 +1,135 @@
+*{
+    margin: 0px;
+    padding: 0px;
+} 
+body{
+background:#444;
+color: #fff;
+} 
+#contenedor {
+    width: 1200px;
+    margin:auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+header{
+    height: 150px;
+    background: rgb(25, 0, 255);
+}
+header h1 {
+    font-size: 50px;
+    text-align: center;
+    line-height: 150px;
+}
+nav {
+    background: #0a0804;   
+    height: 150px;
+}
+nav h2 {
+    font-size: 40px;
+    text-align: center;
+}
+#contenido {
+    width: 1200px;
+    height: 500px;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: rgb(255, 17, 0);
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#contenido iframe {
+    align-self: center;
+    display: block;
+    margin: 0 auto;
+}
+#contenido h2{
+    font-size: 40px;
+    text-align: center;
+}
+#contenido p {
+    padding: 10px;
+    font-size: 14px;
+    text-align: center;
+}
+aside{
+    width: 250px;
+    height: 500px;
+    background: green;
+    margin-top: 10px;
+    float: right;
+}
+aside h2 {
+    font-size: 30px;
+    text-align: center;
+}
+footer{
+    background: #000;
+    clear:both;
+}
+footer h2 {
+    font-size: 40px;
+    text-align: center;
+    padding:20px;
+    font-style:italic;
+}
+#contacto {
+    max-width: 400px;
+    width: 80%;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+}
+input {
+    padding: 5px;
+}
+#block {
+    width: 1200px;
+    margin:auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    overflow: hidden;
+    background: #ff0000;
+    clear:both;
+    font-size: 25px;
+    text-align: center;
+    padding:20px;
+    font-style:Arial;
+}
+#nosese {
+    width: 350px;
+    margin:auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    background: rgb(255, 136, 0);
+}
+#ewe {
+    height: 175px;
+    width: 465px;
+    margin:auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    background: #ff8800;
+}
+#ju {
+    width: 350px;
+    margin:auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    background: rgb(119, 117, 255);
+}
